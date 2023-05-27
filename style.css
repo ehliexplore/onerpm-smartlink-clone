@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+    background-color: rgb(148, 91, 17);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+
+    height: 320px;
+    width: 320px;
+    margin-top: 20px;
+}
+
+.cover-art {
+    height: 320px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.neck {
+    background-color: #2e2e2e;;
+    color: white;
+    height: 75px;
+    width: 320px;
+    text-align: center;
+}
+
+.neck-line-1 {
+    margin-top: 10px;
+}
+
+.neck-line-2 {
+   margin-top: 6px;
+   font-size: 13px;
+}
+
+.spotify, .apple-music, .deezer,
+.youtube-music, .youtube, .itunes-store,
+.amazon-music, .tidal, .anghami,
+.boomplay, .claro-musica {
+    background-color: white;
+    width: 320px;
+    height: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(206, 202, 202);
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+}
+
+.spotify:hover, .apple-music:hover, .deezer:hover,
+.youtube-music:hover, .youtube:hover, .itunes-store:hover,
+.amazon-music:hover, .tidal:hover, .anghami:hover,
+.boomplay:hover, .claro-musica:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.plataform-logo {
+    height: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.img-div {
+    width: 220px;
+}
+
+
+.play-button {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(172, 169, 169);
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: rgb(61, 172, 206);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.play-button-itunes {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(172, 169, 169);
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.play-button-itunes:hover {
+    background-color: rgb(61, 172, 206);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
